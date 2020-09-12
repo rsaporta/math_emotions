@@ -2,7 +2,8 @@ setProjectIfNot(projName = "math_emotions")
 setWidth(121, confirm = FALSE)
 
 
-PLANE = list(x = c(-10, 10), y = c(-10, 10))
+A <- 9L
+PLANE = list(x = c(-A, A), y = c(-A, A))
 RADIUS <- 22L
 VERTEX_1 <- c(x =  -5, y = -3.5)
 VERTEX_2 <- c(x =   5, y = -3.5)
@@ -18,11 +19,11 @@ is_on_circle <- function(x, y, RADIUS, tolerance = 0.05) {
   equals(z, RADIUS, tolerance = tolerance, na.check = FALSE)
 }
 
-N = 250
+N = 300
 DT <- CJ(x = rando(PLANE$x, N = N), y = rando(PLANE$y, N = N))
 if (nrow(DT) >= 1e5) stop("DT is too large. It has ", formnumb(nrow(DT)), " rows")
 
-DT[, W := (((x/ 2.5) ^ 2) + ((y/ 2.5) ^ 2))^2.5]
+DT[, W := (((x/ 2.5) ^ 2) + ((y/ 2.5) ^ 2))^2]
 DT[, CIRCLE := point_in_circle(x = x, y = y, RADIUS = RADIUS)]
 DT[, TRIANGLE := in_triangle(x = x, y = y)]
 
