@@ -1,0 +1,65 @@
+{
+	"folders":
+	[
+		{
+			"folder_exclude_patterns": [".git",".man"],
+			"path": "~/Development/math_emotions/src/",
+			"name": "src"
+		},
+		{
+			"folder_exclude_patterns": [".git",".man"],
+			"path": "~/Development/math_emotions/notes/",
+			"name": "notes"
+		},
+		{
+			"folder_exclude_patterns": [".git",".man"],
+			"path": "~/Development/math_emotions/plots/",
+			"name": "plots"
+		},
+		{
+			"folder_exclude_patterns": [".git",".man"],
+			"path": "~/Development/math_emotions/out/",
+			"name": "out"
+		},
+		{
+			"folder_exclude_patterns": [".git",".man"],
+			"path": "~/Development/rsutils_packages/rsugeneral/R",
+			"name": "GENERAL RSUTIL"
+		},
+		{
+			"folder_exclude_patterns": [".git",".man"],
+			"path": "~/Development/rsutils_packages/rsuplotting/R",
+			"name": "PLOTTING RSUTIL"
+		},
+		{
+			"folder_exclude_patterns": [".git",".man"],
+			"path": "~/Development/rsutils_packages/rsuworkspace/R",
+			"name": "WORKSPACE RSUTIL"
+		},
+		{
+			"folder_exclude_patterns": [".git",".man"],
+			"path": "~/Development/rsutils_packages/rsuaws/R",
+			"name": "AWS RSUTIL"
+		},
+		{
+			"folder_exclude_patterns": [".git",".man"],
+			"path": "~/Development/rsutils_packages/rsudb/R",
+			"name": "DB RSUTIL"
+		},
+		{
+			"folder_exclude_patterns": [".git",".man"],
+			"path": "~/Development/rsutils_packages/rsuxls/R",
+			"name": "XLS RSUTIL"
+		},
+		{
+			"folder_exclude_patterns": [".git",".man"],
+			"path": "~/Development/rsutils_packages/rsuconsoleutils/R",
+			"name": "CONSOLEUTILS RSUTIL"
+		},
+		{
+			"folder_exclude_patterns": [".git",".man"],
+			"path": "~/Development/rsutils_packages/rsudict/R",
+			"name": "DICT RSUTIL"
+		}
+	]
+}
