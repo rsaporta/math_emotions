@@ -19,7 +19,7 @@ confirmProjectIsSetTo(projName="math_emotions", fail.if.not=TRUE)
 
 ## S3 CONFIGURATION
 #| set_default_s3_root("s3://<your_bucket>")
-set_default_s3_download_folder()
+# set_default_s3_download_folder()
 
 ## JSON SETTING FOR USE WITH jsonlite
 options(auto_unbox = FALSE)
